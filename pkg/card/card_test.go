@@ -43,7 +43,7 @@ func TestService_Sum(t *testing.T) {
 		{name: "multiple cards", fields: fields{[]*Card{
 			{Balance: 10},
 			{Balance: 100},
-		}}, want: 110},
+		}}, want: 100},
 	}
 
 	for _, tt := range tests {
